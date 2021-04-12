@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Google.Ads.GoogleAds.Examples": {
+      "commandName": "Project"
+    },
+    "newProfile1": {
+      "commandName": "Executable"
+    }
+  }
+}

@@ -1,0 +1,1504 @@
+dd
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-03-24 14:17:39Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.AdGroupCriterionService/MutateAdGroupCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "customIntent": { "customIntent": "Baseball" }, "adGroup": "customers/2666127839/adGroups/121290976922", "negative": false } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "dnIsGoJcd3EWR-D3bgAsPg",
+  "date": "Wed, 24 Mar 2021 14:17:38 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CrMBCgIIBBJvUmVzb3VyY2UgbmFtZSAnQmFzZWJhbGwnIGlzIG1hbGZvcm1lZDogZXhwZWN0ZWQgJ2N1c3RvbWVycy97Y3VzdG9tZXJfaWR9L2N1c3RvbUludGVyZXN0cy97Y3VzdG9tX2ludGVyZXN0X2lkfScuIjwSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRIPCg1jdXN0b21faW50ZW50Eg8KDWN1c3RvbV9pbnRlbnQ=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4a/gEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUStgEKswEKAggEEm9SZXNvdXJjZSBuYW1lICdCYXNlYmFsbCcgaXMgbWFsZm9ybWVkOiBleHBlY3RlZCAnY3VzdG9tZXJzL3tjdXN0b21lcl9pZH0vY3VzdG9tSW50ZXJlc3RzL3tjdXN0b21faW50ZXJlc3RfaWR9Jy4iPBIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEg8KDWN1c3RvbV9pbnRlbnQSDwoNY3VzdG9tX2ludGVudA=="
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "dnIsGoJcd3EWR-D3bgAsPg",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "requestError": "RESOURCE_NAME_MALFORMED"
+        },
+        "message": "Resource name 'Baseball' is malformed: expected 'customers/{customer_id}/customInterests/{custom_interest_id}'.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "custom_intent"
+            },
+            {
+              "fieldName": "custom_intent"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-03-24 14:24:52Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.AdGroupCriterionService/MutateAdGroupCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "customIntent": { "customIntent": "customers/2666127839/adGroups/121290976922" }, "adGroup": "customers/2666127839/adGroups/121290976922", "negative": false } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "jzn2scO-F7tGaUV32qcV0g",
+  "date": "Wed, 24 Mar 2021 14:24:51 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CtYBCgIIBBKRAVJlc291cmNlIG5hbWUgJ2N1c3RvbWVycy8yNjY2MTI3ODM5L2FkR3JvdXBzLzEyMTI5MDk3NjkyMicgaXMgbWFsZm9ybWVkOiBleHBlY3RlZCAnY3VzdG9tZXJzL3tjdXN0b21lcl9pZH0vY3VzdG9tSW50ZXJlc3RzL3tjdXN0b21faW50ZXJlc3RfaWR9Jy4iPBIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEg8KDWN1c3RvbV9pbnRlbnQSDwoNY3VzdG9tX2ludGVudA==",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4aoQIKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUS2QEK1gEKAggEEpEBUmVzb3VyY2UgbmFtZSAnY3VzdG9tZXJzLzI2NjYxMjc4MzkvYWRHcm91cHMvMTIxMjkwOTc2OTIyJyBpcyBtYWxmb3JtZWQ6IGV4cGVjdGVkICdjdXN0b21lcnMve2N1c3RvbWVyX2lkfS9jdXN0b21JbnRlcmVzdHMve2N1c3RvbV9pbnRlcmVzdF9pZH0nLiI8Eg4KCm9wZXJhdGlvbnMYABIICgZjcmVhdGUSDwoNY3VzdG9tX2ludGVudBIPCg1jdXN0b21faW50ZW50"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "jzn2scO-F7tGaUV32qcV0g",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "requestError": "RESOURCE_NAME_MALFORMED"
+        },
+        "message": "Resource name 'customers/2666127839/adGroups/121290976922' is malformed: expected 'customers/{customer_id}/customInterests/{custom_interest_id}'.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "custom_intent"
+            },
+            {
+              "fieldName": "custom_intent"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-05 14:50:18Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GoogleAdsService/SearchStream
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "customerId": "2666127839", "query": "SELECT\r\n                  campaign_criterion.campaign,\r\n                  campaign_criterion.criterion_id,\r\n                  campaign_criterion.location.geo_target_constant,\r\n                  campaign_criterion.proximity.geo_point.longitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.geo_point.latitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.radius,\r\n                  campaign_criterion.negative\r\n            FROM campaign_criterion\r\n            WHERE campaign_criterion.campaign = 'customers/2666127839/campaigns/12429579081'\r\n                AND campaign_criterion.type IN (LOCATION, PROXIMITY)\r\n            ", "summaryRowSetting": "NO_SUMMARY_ROW" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "date": "Mon, 05 Apr 2021 14:50:14 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "request-id": "XDq5R6LFANp7HTwVzT_YLQ"
+}
+
+{ "results": [ { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1002405", "location": { "geoTargetConstant": "geoTargetConstants/1002405" }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1002405", "negative": false } } ], "fieldMask": "campaignCriterion.campaign,campaignCriterion.criterionId,campaignCriterion.location.geoTargetConstant,campaignCriterion.proximity.geoPoint.longitudeInMicroDegrees,campaignCriterion.proximity.geoPoint.latitudeInMicroDegrees,campaignCriterion.proximity.radius,campaignCriterion.negative" }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-05 14:53:33Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GeoTargetConstantService/SuggestGeoTargetConstants
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "locationNames": { "names": [ "Toronto", "Richmond Hill", "North York", "Mississauga" ] }, "locale": "en", "countryCode": "CA" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "RzXcZ7xyRI0lgEr8qt_ybQ",
+  "date": "Mon, 05 Apr 2021 14:53:31 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "geoTargetConstantSuggestions": [ { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002451", "status": "ENABLED", "id": "1002451", "name": "Toronto", "countryCode": "CA", "targetType": "City", "canonicalName": "Toronto,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "9890000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9041160", "status": "ENABLED", "id": "9041160", "name": "Toronto Pearson International Airport", "countryCode": "CA", "targetType": "Airport", "canonicalName": "Toronto Pearson International Airport,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "216000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9041161", "status": "ENABLED", "id": "9041161", "name": "Downsview Airport", "countryCode": "CA", "targetType": "Airport", "canonicalName": "Downsview Airport,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "16000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9060193", "status": "ENABLED", "id": "9060193", "name": "University of Toronto - St. George Campus", "countryCode": "CA", "targetType": "University", "canonicalName": "University of Toronto - St. George Campus,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "113000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002416", "status": "ENABLED", "id": "1002416", "name": "Scarborough", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Scarborough,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "1300000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002260", "status": "ENABLED", "id": "1002260", "name": "Etobicoke", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Etobicoke,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "1480000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002368", "status": "ENABLED", "id": "1002368", "name": "North York", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "North York,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "1600000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province", "canonicalName": "Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "16200000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000784", "status": "ENABLED", "id": "9000784", "name": "L3R", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "L3R,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "404000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9061009", "status": "ENABLED", "id": "9061009", "name": "Old Toronto", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Old Toronto,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "4080000", "searchTerm": "Toronto" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002405", "status": "ENABLED", "id": "1002405", "name": "Richmond Hill", "countryCode": "CA", "targetType": "City", "canonicalName": "Richmond Hill,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "542000", "searchTerm": "Richmond Hill" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000804", "status": "ENABLED", "id": "9000804", "name": "L4S", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "L4S,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "149000", "searchTerm": "Richmond Hill" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000794", "status": "ENABLED", "id": "9000794", "name": "L4E", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "L4E,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "177000", "searchTerm": "Richmond Hill" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000792", "status": "ENABLED", "id": "9000792", "name": "L4B", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "L4B,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "215000", "searchTerm": "Richmond Hill" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000793", "status": "ENABLED", "id": "9000793", "name": "L4C", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "L4C,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "362000", "searchTerm": "Richmond Hill" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002368", "status": "ENABLED", "id": "1002368", "name": "North York", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "North York,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "1600000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002472", "status": "ENABLED", "id": "1002472", "name": "Willowdale", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Willowdale,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "315000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002240", "status": "ENABLED", "id": "1002240", "name": "Don Mills", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Don Mills,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "167000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9041161", "status": "ENABLED", "id": "9041161", "name": "Downsview Airport", "countryCode": "CA", "targetType": "Airport", "canonicalName": "Downsview Airport,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "16000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9060196", "status": "ENABLED", "id": "9060196", "name": "York University", "countryCode": "CA", "targetType": "University", "canonicalName": "York University,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "44000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000921", "status": "ENABLED", "id": "9000921", "name": "M3J", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M3J,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "261000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000925", "status": "ENABLED", "id": "9000925", "name": "M3N", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M3N,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "258000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000922", "status": "ENABLED", "id": "9000922", "name": "M3K", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M3K,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "304000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000899", "status": "ENABLED", "id": "9000899", "name": "M1L", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M1L,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "226000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000919", "status": "ENABLED", "id": "9000919", "name": "M3C", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M3C,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "258000", "searchTerm": "North York" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002350", "status": "ENABLED", "id": "1002350", "name": "Mississauga", "countryCode": "CA", "targetType": "City", "canonicalName": "Mississauga,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "1480000", "searchTerm": "Mississauga" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9041160", "status": "ENABLED", "id": "9041160", "name": "Toronto Pearson International Airport", "countryCode": "CA", "targetType": "Airport", "canonicalName": "Toronto Pearson International Airport,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "216000", "searchTerm": "Mississauga" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002327", "status": "ENABLED", "id": "1002327", "name": "Malton", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Malton,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "118000", "searchTerm": "Mississauga" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002391", "status": "ENABLED", "id": "1002391", "name": "Port Credit", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Port Credit,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "40000", "searchTerm": "Mississauga" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002230", "status": "ENABLED", "id": "1002230", "name": "Cooksville", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Cooksville,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "206000", "searchTerm": "Mississauga" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002439", "status": "ENABLED", "id": "1002439", "name": "Streetsville", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Streetsville,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "69000", "searchTerm": "Mississauga" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/1002218", "status": "ENABLED", "id": "1002218", "name": "Clarkson", "countryCode": "CA", "targetType": "Neighborhood", "canonicalName": "Clarkson,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "100000", "searchTerm": "Mississauga" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000820", "status": "ENABLED", "id": "9000820", "name": "L5M", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "L5M,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "378000", "searchTerm": "Mississauga" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000812", "status": "ENABLED", "id": "9000812", "name": "L5B", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "L5B,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "401000", "searchTerm": "Mississauga" }, { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000826", "status": "ENABLED", "id": "9000826", "name": "L5V", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "L5V,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "327000", "searchTerm": "Mississauga" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-05 15:12:01Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "M2N 6Z4", "countryCode": "CA", "streetAddress": "5095 Yonge St", "cityName": "North York" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "TVhiS8L_GjRNWIRa-fZYCQ",
+  "date": "Mon, 05 Apr 2021 15:11:59 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "TVhiS8L_GjRNWIRa-fZYCQ",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-05 15:13:16Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "Q03nyioXaNMrI1Sb2iHRAQ",
+  "date": "Mon, 05 Apr 2021 15:13:14 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "Q03nyioXaNMrI1Sb2iHRAQ",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-05 15:24:57Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "MILES", "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "uSvjXhYxIDlToSaYjiYd3Q",
+  "date": "Mon, 05 Apr 2021 15:24:55 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1215735906958" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-05 15:29:17Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "OFaaHsENlDq2zHaTt2_Tqg",
+  "date": "Mon, 05 Apr 2021 15:29:15 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "OFaaHsENlDq2zHaTt2_Tqg",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-05 15:30:11Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "pDdK5y9BS5kZYuL521CqwQ",
+  "date": "Mon, 05 Apr 2021 15:30:10 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "pDdK5y9BS5kZYuL521CqwQ",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-05 17:13:25Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "6BfxvFNziTE_v7iwhYuGvA",
+  "date": "Mon, 05 Apr 2021 17:13:24 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "6BfxvFNziTE_v7iwhYuGvA",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-05 17:14:04Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "MILES", "address": { "postalCode": "M2N 6Z4", "countryCode": "CA", "streetAddress": "5095 Yonge St", "cityName": "North York" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "wY6m6H1JE_EbDDoGJ9UyJg",
+  "date": "Mon, 05 Apr 2021 17:14:04 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-05 17:20:06Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "E3e8Ft6gOCeD3hJsfdi_pQ",
+  "date": "Mon, 05 Apr 2021 17:20:06 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "E3e8Ft6gOCeD3hJsfdi_pQ",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-05 17:22:21Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "So3QFuKqd-LWLfKXCVMcwA",
+  "date": "Mon, 05 Apr 2021 17:22:21 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "So3QFuKqd-LWLfKXCVMcwA",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-05 17:26:04Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "MILES", "address": { "postalCode": "M2N 6Z4", "countryCode": "CA", "streetAddress": "5095 Yonge St", "cityName": "North York" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "CyDZ4G_y-fQv3b36UFa8Jg",
+  "date": "Mon, 05 Apr 2021 17:26:04 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-05 17:30:09Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "-FP-TW50GRD0Ian46BCm7A",
+  "date": "Mon, 05 Apr 2021 17:30:09 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "-FP-TW50GRD0Ian46BCm7A",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-06 04:59:12Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "4Z2_9Oal3J0nzc_ux9PI4Q",
+  "date": "Tue, 06 Apr 2021 04:59:11 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "4Z2_9Oal3J0nzc_ux9PI4Q",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-06 05:01:25Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "AaH2rHVnWdkXaLe0EMaqow",
+  "date": "Tue, 06 Apr 2021 05:01:24 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "AaH2rHVnWdkXaLe0EMaqow",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Information: 1 : [2021-04-06 05:02:04Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "request-id": "hQ4RR_C__UtTBb90lT8b2Q",
+  "date": "Tue, 06 Apr 2021 05:02:03 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "google.ads.googleads.v6.errors.googleadsfailure-bin": "CmMKA+gDAhIjVGhlIHJlcXVpcmVkIGZpZWxkIHdhcyBub3QgcHJlc2VudC4iNxIOCgpvcGVyYXRpb25zGAASCAoGY3JlYXRlEgsKCXByb3hpbWl0eRIOCgxyYWRpdXNfdW5pdHM=",
+  "grpc-status-details-bin": "CAMSJVJlcXVlc3QgY29udGFpbnMgYW4gaW52YWxpZCBhcmd1bWVudC4arAEKQ3R5cGUuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmFkcy5nb29nbGVhZHMudjYuZXJyb3JzLkdvb2dsZUFkc0ZhaWx1cmUSZQpjCgPoAwISI1RoZSByZXF1aXJlZCBmaWVsZCB3YXMgbm90IHByZXNlbnQuIjcSDgoKb3BlcmF0aW9ucxgAEggKBmNyZWF0ZRILCglwcm94aW1pdHkSDgoMcmFkaXVzX3VuaXRz"
+}
+
+Fault: {
+  "StatusCode": 3,
+  "Details": "Request contains an invalid argument.",
+  "RequestId": "hQ4RR_C__UtTBb90lT8b2Q",
+  "Failure": {
+    "errors": [
+      {
+        "errorCode": {
+          "fieldError": "REQUIRED"
+        },
+        "message": "The required field was not present.",
+        "location": {
+          "fieldPathElements": [
+            {
+              "fieldName": "operations",
+              "index": 0
+            },
+            {
+              "fieldName": "create"
+            },
+            {
+              "fieldName": "proximity"
+            },
+            {
+              "fieldName": "radius_units"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-06 05:02:49Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "MILES", "address": { "postalCode": "M2N 6Z4", "countryCode": "CA", "streetAddress": "5095 Yonge St", "cityName": "North York" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "tsLKreqhyFqO0IkT_hnlkQ",
+  "date": "Tue, 06 Apr 2021 05:02:48 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-06 05:04:18Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "MILES", "address": { "postalCode": "M2N 6Z4", "countryCode": "CA", "streetAddress": "5095 Yonge St", "cityName": "North York" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "YCMy-VGJeXyxWgLwC7veiw",
+  "date": "Tue, 06 Apr 2021 05:04:18 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-06 05:04:40Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "MILES", "address": { "postalCode": "75002", "countryCode": "FR", "streetAddress": "38 avenue de l'Opéra", "cityName": "Paris" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "jfw7-lceMf41f0shiHkXYA",
+  "date": "Tue, 06 Apr 2021 05:04:39 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1215735906958" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-06 05:13:19Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "KILOMETERS", "address": { "postalCode": "M3K 2A2", "countryCode": "CA", "streetAddress": "1140 Sheppard Ave W Suite 20", "cityName": "North York" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "OFIl3gqdnH1h9EO7c1f78A",
+  "date": "Tue, 06 Apr 2021 05:13:18 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216504439024" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-06 05:14:09Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "KILOMETERS", "address": { "postalCode": "M3K 2A2", "countryCode": "CA", "streetAddress": "1140 Sheppard Ave W Suite 20", "cityName": "North York" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "oTRsn7L59syDqvKfj9LVDg",
+  "date": "Tue, 06 Apr 2021 05:14:08 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216504439024" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-06 05:15:48Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "KILOMETERS", "address": { "countryCode": "CA", "streetAddress": "1140 alskdfjasldfSheppard Ave W Suite 20", "cityName": "North York" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "DY9TqEBpEez5-vH-kUjNNQ",
+  "date": "Tue, 06 Apr 2021 05:15:47 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216626583325" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-06 05:18:34Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GeoTargetConstantService/SuggestGeoTargetConstants
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "locationNames": { "names": [ "M2N" ] }, "locale": "en", "countryCode": "CA" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "ndyARHVaqTWzW3nY9IZJUg",
+  "date": "Tue, 06 Apr 2021 05:18:34 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "geoTargetConstantSuggestions": [ { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000914", "status": "ENABLED", "id": "9000914", "name": "M2N", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M2N,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "663000", "searchTerm": "M2N" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-06 05:18:35Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.CampaignCriterionService/MutateCampaignCriteria
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011",
+  "x-goog-request-params": "customer_id=2666127839"
+}
+
+{ "customerId": "2666127839", "operations": [ { "create": { "proximity": { "radiusUnits": "KILOMETERS", "address": { "countryCode": "CA", "streetAddress": "1140 alskdfjasldfSheppard Ave W Suite 20", "cityName": "North York" }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081" } } ] }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "MgE8UpriQjO8H_vAfFVNOg",
+  "date": "Tue, 06 Apr 2021 05:18:34 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "results": [ { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216626583325" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 05:01:26Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GeoTargetConstantService/SuggestGeoTargetConstants
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "locationNames": { "names": [ "M2N" ] }, "locale": "en", "countryCode": "CA" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "7UoQwtbCAYSz_nk1GAKWjQ",
+  "date": "Mon, 12 Apr 2021 05:01:25 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "geoTargetConstantSuggestions": [ { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000914", "status": "ENABLED", "id": "9000914", "name": "M2N", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M2N,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "663000", "searchTerm": "M2N" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 05:01:28Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GoogleAdsService/SearchStream
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "customerId": "2666127839", "query": "SELECT\r\n                  campaign_criterion.campaign,\r\n                  campaign_criterion.criterion_id,\r\n                  campaign_criterion.location.geo_target_constant,\r\n                  campaign_criterion.proximity.geo_point.longitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.geo_point.latitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.radius,\r\n                  campaign_criterion.negative\r\n            FROM campaign_criterion\r\n            WHERE campaign_criterion.campaign = 'customers/2666127839/campaigns/12429579081'\r\n                AND campaign_criterion.type IN (LOCATION, PROXIMITY)\r\n            ", "summaryRowSetting": "NO_SUMMARY_ROW" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "date": "Mon, 12 Apr 2021 05:01:26 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "request-id": "tREy1CmTRSMUHN6wR3EPaw"
+}
+
+{ "results": [ { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1002405", "location": { "geoTargetConstant": "geoTargetConstants/1002405" }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1002405", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79412346, "latitudeInMicroDegrees": 43768702 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1214399070843", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1215735906958", "proximity": { "geoPoint": { "longitudeInMicroDegrees": 2332980, "latitudeInMicroDegrees": 48869871 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1215735906958", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216504439024", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467413, "latitudeInMicroDegrees": 43752631 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216504439024", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216626583325", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467827, "latitudeInMicroDegrees": 43711157 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216626583325", "negative": false } } ], "fieldMask": "campaignCriterion.campaign,campaignCriterion.criterionId,campaignCriterion.location.geoTargetConstant,campaignCriterion.proximity.geoPoint.longitudeInMicroDegrees,campaignCriterion.proximity.geoPoint.latitudeInMicroDegrees,campaignCriterion.proximity.radius,campaignCriterion.negative" }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 05:03:11Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GeoTargetConstantService/SuggestGeoTargetConstants
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "locationNames": { "names": [ "M2N" ] }, "locale": "en", "countryCode": "CA" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "G0ar2tg5rUoFjGUSLikt4g",
+  "date": "Mon, 12 Apr 2021 05:03:10 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "geoTargetConstantSuggestions": [ { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000914", "status": "ENABLED", "id": "9000914", "name": "M2N", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M2N,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "663000", "searchTerm": "M2N" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 05:03:13Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GoogleAdsService/SearchStream
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "customerId": "2666127839", "query": "SELECT\r\n                  campaign_criterion.campaign,\r\n                  campaign_criterion.criterion_id,\r\n                  campaign_criterion.location.geo_target_constant,\r\n                  campaign_criterion.proximity.geo_point.longitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.geo_point.latitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.radius,\r\n                  campaign_criterion.negative\r\n            FROM campaign_criterion\r\n            WHERE campaign_criterion.campaign = 'customers/2666127839/campaigns/12429579081'\r\n                AND campaign_criterion.type IN (LOCATION, PROXIMITY)\r\n            ", "summaryRowSetting": "NO_SUMMARY_ROW" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "date": "Mon, 12 Apr 2021 05:03:11 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "request-id": "NbepoCmb456H96i_aeSObA"
+}
+
+{ "results": [ { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1002405", "location": { "geoTargetConstant": "geoTargetConstants/1002405" }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1002405", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79412346, "latitudeInMicroDegrees": 43768702 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1214399070843", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1215735906958", "proximity": { "geoPoint": { "longitudeInMicroDegrees": 2332980, "latitudeInMicroDegrees": 48869871 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1215735906958", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216504439024", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467413, "latitudeInMicroDegrees": 43752631 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216504439024", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216626583325", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467827, "latitudeInMicroDegrees": 43711157 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216626583325", "negative": false } } ], "fieldMask": "campaignCriterion.campaign,campaignCriterion.criterionId,campaignCriterion.location.geoTargetConstant,campaignCriterion.proximity.geoPoint.longitudeInMicroDegrees,campaignCriterion.proximity.geoPoint.latitudeInMicroDegrees,campaignCriterion.proximity.radius,campaignCriterion.negative" }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 05:04:16Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GeoTargetConstantService/SuggestGeoTargetConstants
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "locationNames": { "names": [ "M2N" ] }, "locale": "en", "countryCode": "CA" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "tisV2h27gCBebDkOObQwMA",
+  "date": "Mon, 12 Apr 2021 05:04:16 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "geoTargetConstantSuggestions": [ { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000914", "status": "ENABLED", "id": "9000914", "name": "M2N", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M2N,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "663000", "searchTerm": "M2N" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 05:04:18Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GoogleAdsService/SearchStream
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.0.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.35.0",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "customerId": "2666127839", "query": "SELECT\r\n                  campaign_criterion.campaign,\r\n                  campaign_criterion.criterion_id,\r\n                  campaign_criterion.location.geo_target_constant,\r\n                  campaign_criterion.proximity.geo_point.longitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.geo_point.latitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.radius,\r\n                  campaign_criterion.negative\r\n            FROM campaign_criterion\r\n            WHERE campaign_criterion.campaign = 'customers/2666127839/campaigns/12429579081'\r\n                AND campaign_criterion.type IN (LOCATION, PROXIMITY)\r\n            ", "summaryRowSetting": "NO_SUMMARY_ROW" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "date": "Mon, 12 Apr 2021 05:04:17 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "request-id": "oi4Iu9iGqksz5guUhYINwg"
+}
+
+{ "results": [ { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1002405", "location": { "geoTargetConstant": "geoTargetConstants/1002405" }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1002405", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79412346, "latitudeInMicroDegrees": 43768702 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1214399070843", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1215735906958", "proximity": { "geoPoint": { "longitudeInMicroDegrees": 2332980, "latitudeInMicroDegrees": 48869871 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1215735906958", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216504439024", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467413, "latitudeInMicroDegrees": 43752631 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216504439024", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216626583325", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467827, "latitudeInMicroDegrees": 43711157 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216626583325", "negative": false } } ], "fieldMask": "campaignCriterion.campaign,campaignCriterion.criterionId,campaignCriterion.location.geoTargetConstant,campaignCriterion.proximity.geoPoint.longitudeInMicroDegrees,campaignCriterion.proximity.geoPoint.latitudeInMicroDegrees,campaignCriterion.proximity.radius,campaignCriterion.negative" }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 22:34:40Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GeoTargetConstantService/SuggestGeoTargetConstants
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.1.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.36.4",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "locationNames": { "names": [ "M2N" ] }, "locale": "en", "countryCode": "CA" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "z-0Vq46g93AB9Ayi4nw1Cg",
+  "date": "Mon, 12 Apr 2021 22:34:39 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "geoTargetConstantSuggestions": [ { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000914", "status": "ENABLED", "id": "9000914", "name": "M2N", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M2N,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "609000", "searchTerm": "M2N" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 22:34:43Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GoogleAdsService/SearchStream
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.1.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.36.4",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "customerId": "2666127839", "query": "SELECT\r\n                  campaign_criterion.campaign,\r\n                  campaign_criterion.criterion_id,\r\n                  campaign_criterion.location.geo_target_constant,\r\n                  campaign_criterion.proximity.geo_point.longitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.geo_point.latitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.radius,\r\n                  campaign_criterion.negative\r\n            FROM campaign_criterion\r\n            WHERE campaign_criterion.campaign = 'customers/2666127839/campaigns/12429579081'\r\n                AND campaign_criterion.type IN (LOCATION, PROXIMITY)\r\n            ", "summaryRowSetting": "NO_SUMMARY_ROW" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "date": "Mon, 12 Apr 2021 22:34:40 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "request-id": "65fdcmwPXvCptq939ikiHg"
+}
+
+{ "results": [ { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1002405", "location": { "geoTargetConstant": "geoTargetConstants/1002405" }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1002405", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79412346, "latitudeInMicroDegrees": 43768702 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1214399070843", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1215735906958", "proximity": { "geoPoint": { "longitudeInMicroDegrees": 2332980, "latitudeInMicroDegrees": 48869871 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1215735906958", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216504439024", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467413, "latitudeInMicroDegrees": 43752631 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216504439024", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216626583325", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467827, "latitudeInMicroDegrees": 43711157 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216626583325", "negative": false } } ], "fieldMask": "campaignCriterion.campaign,campaignCriterion.criterionId,campaignCriterion.location.geoTargetConstant,campaignCriterion.proximity.geoPoint.longitudeInMicroDegrees,campaignCriterion.proximity.geoPoint.latitudeInMicroDegrees,campaignCriterion.proximity.radius,campaignCriterion.negative" }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 22:45:12Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GeoTargetConstantService/SuggestGeoTargetConstants
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.1.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.36.4",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "locationNames": { "names": [ "M2N" ] }, "locale": "en", "countryCode": "CA" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "BrCBLqLPlw5cJ8sN4bcAVg",
+  "date": "Mon, 12 Apr 2021 22:45:11 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "geoTargetConstantSuggestions": [ { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000914", "status": "ENABLED", "id": "9000914", "name": "M2N", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M2N,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "609000", "searchTerm": "M2N" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 22:45:16Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GoogleAdsService/SearchStream
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.1.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.36.4",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "customerId": "2666127839", "query": "SELECT\r\n                  campaign_criterion.campaign,\r\n                  campaign_criterion.criterion_id,\r\n                  campaign_criterion.location.geo_target_constant,\r\n                  campaign_criterion.proximity.geo_point.longitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.geo_point.latitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.radius,\r\n                  campaign_criterion.negative\r\n            FROM campaign_criterion\r\n            WHERE campaign_criterion.campaign = 'customers/2666127839/campaigns/12429579081'\r\n                AND campaign_criterion.type IN (LOCATION, PROXIMITY)\r\n            ", "summaryRowSetting": "NO_SUMMARY_ROW" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "date": "Mon, 12 Apr 2021 22:45:12 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "request-id": "78ikPjf2odZxz9yr1m7asg"
+}
+
+{ "results": [ { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1002405", "location": { "geoTargetConstant": "geoTargetConstants/1002405" }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1002405", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79412346, "latitudeInMicroDegrees": 43768702 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1214399070843", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1215735906958", "proximity": { "geoPoint": { "longitudeInMicroDegrees": 2332980, "latitudeInMicroDegrees": 48869871 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1215735906958", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216504439024", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467413, "latitudeInMicroDegrees": 43752631 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216504439024", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216626583325", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467827, "latitudeInMicroDegrees": 43711157 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216626583325", "negative": false } } ], "fieldMask": "campaignCriterion.campaign,campaignCriterion.criterionId,campaignCriterion.location.geoTargetConstant,campaignCriterion.proximity.geoPoint.longitudeInMicroDegrees,campaignCriterion.proximity.geoPoint.latitudeInMicroDegrees,campaignCriterion.proximity.radius,campaignCriterion.negative" }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 22:46:15Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GeoTargetConstantService/SuggestGeoTargetConstants
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.1.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.36.4",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "locationNames": { "names": [ "M2N" ] }, "locale": "en", "countryCode": "CA" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "request-id": "91HzR5PS3K9IAwerPbB8xg",
+  "date": "Mon, 12 Apr 2021 22:46:14 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+}
+
+{ "geoTargetConstantSuggestions": [ { "geoTargetConstant": { "resourceName": "geoTargetConstants/9000914", "status": "ENABLED", "id": "9000914", "name": "M2N", "countryCode": "CA", "targetType": "Postal Code", "canonicalName": "M2N,Ontario,Canada" }, "geoTargetConstantParents": [ { "resourceName": "geoTargetConstants/20121", "status": "ENABLED", "id": "20121", "name": "Ontario", "countryCode": "CA", "targetType": "Province" }, { "resourceName": "geoTargetConstants/2124", "status": "ENABLED", "id": "2124", "name": "Canada", "countryCode": "CA", "targetType": "Country" } ], "locale": "en", "reach": "609000", "searchTerm": "M2N" } ] }
+----------------END API CALL----------------
+
+GoogleAds.DetailedRequestLogs Verbose: 1 : [2021-04-12 22:46:18Z] - 
+---------------BEGIN API CALL---------------
+
+Request
+-------
+
+Method Name: /google.ads.googleads.v6.services.GoogleAdsService/SearchStream
+Host: https://googleads.googleapis.com
+Headers: {
+  "x-goog-api-client": "gl-dotnet/3.0.0 gapic/7.1.0 gax/3.2.0+002f6637d17e4170f5db7ec7ca6f0163e6df1481 grpc/2.36.4",
+  "developer-token": "REDACTED",
+  "login-customer-id": "5935144011"
+}
+
+{ "customerId": "2666127839", "query": "SELECT\r\n                  campaign_criterion.campaign,\r\n                  campaign_criterion.criterion_id,\r\n                  campaign_criterion.location.geo_target_constant,\r\n                  campaign_criterion.proximity.geo_point.longitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.geo_point.latitude_in_micro_degrees,\r\n                  campaign_criterion.proximity.radius,\r\n                  campaign_criterion.negative\r\n            FROM campaign_criterion\r\n            WHERE campaign_criterion.campaign = 'customers/2666127839/campaigns/12429579081'\r\n                AND campaign_criterion.type IN (LOCATION, PROXIMITY)\r\n            ", "summaryRowSetting": "NO_SUMMARY_ROW" }
+
+Response
+--------
+Headers: {
+  "content-disposition": "attachment",
+  "date": "Mon, 12 Apr 2021 22:46:14 GMT",
+  "alt-svc": "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "request-id": "rV9oqUb3j5ygm6eVmWb5IA"
+}
+
+{ "results": [ { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1002405", "location": { "geoTargetConstant": "geoTargetConstants/1002405" }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1002405", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1214399070843", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79412346, "latitudeInMicroDegrees": 43768702 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1214399070843", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1215735906958", "proximity": { "geoPoint": { "longitudeInMicroDegrees": 2332980, "latitudeInMicroDegrees": 48869871 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1215735906958", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216504439024", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467413, "latitudeInMicroDegrees": 43752631 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216504439024", "negative": false } }, { "campaignCriterion": { "resourceName": "customers/2666127839/campaignCriteria/12429579081~1216626583325", "proximity": { "geoPoint": { "longitudeInMicroDegrees": -79467827, "latitudeInMicroDegrees": 43711157 }, "radius": 10 }, "campaign": "customers/2666127839/campaigns/12429579081", "criterionId": "1216626583325", "negative": false } } ], "fieldMask": "campaignCriterion.campaign,campaignCriterion.criterionId,campaignCriterion.location.geoTargetConstant,campaignCriterion.proximity.geoPoint.longitudeInMicroDegrees,campaignCriterion.proximity.geoPoint.latitudeInMicroDegrees,campaignCriterion.proximity.radius,campaignCriterion.negative" }
+----------------END API CALL----------------
+

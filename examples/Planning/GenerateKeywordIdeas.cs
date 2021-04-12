@@ -148,9 +148,13 @@ namespace Google.Ads.GoogleAds.Examples.V6
                 foreach (GenerateKeywordIdeaResult result in response)
                 {
                     KeywordPlanHistoricalMetrics metrics = result.KeywordIdeaMetrics;
-                    Console.WriteLine($"Keyword idea text '{result.Text}' has " +
-                        $"{metrics.AvgMonthlySearches} average monthly searches and competition " +
-                        $"is {metrics.Competition}.");
+                    if (!(metrics == null))
+                    {
+                        Console.WriteLine($"Keyword idea text '{result.Text}' has "  +
+                            $"{metrics.AvgMonthlySearches} average monthly searches and competition " +
+                            $"is {metrics.Competition}."
+                        );
+                    }
                 }
             }
             catch (GoogleAdsException e)

@@ -113,8 +113,8 @@ namespace Google.Ads.GoogleAds.Examples.V6
                 };
 
             CampaignCriterionOperation[] operations = new CampaignCriterionOperation[] {
-                negativeCriterionOperation,
-                locationCriterionOperation,
+                //negativeCriterionOperation,
+                //locationCriterionOperation,
                 proximityCriterionOperation
             };
 
@@ -173,7 +173,7 @@ namespace Google.Ads.GoogleAds.Examples.V6
         /// </param>
         /// <returns>a campaign criterion object with the specified locationId and resource name.
         /// </returns>
-        // [START add_campaign_targeting_criteria]
+        // [START AddCampaignTargetingCriteria]
         private CampaignCriterion buildLocationCriterion(long locationId,
             string campaignResourceName)
         {
@@ -187,7 +187,7 @@ namespace Google.Ads.GoogleAds.Examples.V6
                 }
             };
         }
-        // [END add_campaign_targeting_criteria]
+        // [END AddCampaignTargetingCriteria]
 
         /// <summary>
         /// Creates a proximity Criterion.
@@ -196,17 +196,17 @@ namespace Google.Ads.GoogleAds.Examples.V6
         /// </param>
         /// <returns>a campaign criterion object with the specified locationId and resource name.
         /// </returns>
-        // [START add_campaign_targeting_criteria_1]
-        private CampaignCriterion buildProximityCriterion(string campaignResourceName)
+        // [START AddCampaignTargetingCriteria_1]
+        public CampaignCriterion buildProximityCriterion(string campaignResourceName)
         {
             ProximityInfo proximity = new ProximityInfo()
             {
                 Address = new AddressInfo()
                 {
-                    StreetAddress = "38 avenue de l'Opéra",
-                    CityName = "Paris",
-                    PostalCode = "75002",
-                    CountryCode = "FR"
+                    StreetAddress = "5095 Yonge St",
+                    CityName = "North York",
+                    PostalCode = "M2N 6Z4",
+                    CountryCode = "CA"
                 },
                 Radius = 10d,
                 // Default is kilometers.
@@ -219,6 +219,6 @@ namespace Google.Ads.GoogleAds.Examples.V6
                 Proximity = proximity
             };
         }
-        // [END add_campaign_targeting_criteria_1]
+        // [END AddCampaignTargetingCriteria_1]
     }
 }

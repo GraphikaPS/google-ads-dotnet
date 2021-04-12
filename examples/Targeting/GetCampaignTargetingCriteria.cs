@@ -83,6 +83,14 @@ namespace Google.Ads.GoogleAds.Examples.V6
                     CampaignCriterion criterion = criterionRow.CampaignCriterion;
                     Console.Write($"Campaign criterion with id = '{criterion.CriterionId}' " +
                         "was retrieved:");
+
+                    //pchu: added location group
+                    if (!string.IsNullOrEmpty(criterion.Location?.ToString()))
+                    {
+                        Console.Write($"Campaign loc group = '{criterion.Location?.GeoTargetConstant}' " +
+                            "was retrieved:");
+                    }
+
                     if (criterion.Negative)
                     {
                         Console.Write("Negative ");

@@ -102,8 +102,8 @@ namespace Google.Ads.GoogleAds.Examples.V6
                 // Display the results.
                 foreach (MutateAdGroupResult newAdGroup in response.Results)
                 {
-                    Console.WriteLine("Ad group with resource name '{0}' was created.",
-                        newAdGroup.ResourceName);
+                    Console.WriteLine("Ad group with resource name '{0}' and id '{1}' was created.",
+                        newAdGroup.ResourceName, newAdGroup.AdGroup.Id);
                 }
             }
             catch (GoogleAdsException e)

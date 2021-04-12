@@ -1,0 +1,23 @@
+D0311 12:04:18.097825 Grpc.Core.Internal.NativeExtension gRPC native library loaded successfully.
+D0311 12:04:18.103655 0 ..\..\..\src\core\ext\filters\client_channel\lb_policy_registry.cc:42: registering LB policy factory for "grpclb"
+D0311 12:04:18.104713 0 ..\..\..\src\core\ext\filters\client_channel\lb_policy_registry.cc:42: registering LB policy factory for "priority_experimental"
+D0311 12:04:18.104864 0 ..\..\..\src\core\ext\filters\client_channel\lb_policy_registry.cc:42: registering LB policy factory for "weighted_target_experimental"
+D0311 12:04:18.104964 0 ..\..\..\src\core\ext\filters\client_channel\lb_policy_registry.cc:42: registering LB policy factory for "pick_first"
+D0311 12:04:18.105081 0 ..\..\..\src\core\ext\filters\client_channel\lb_policy_registry.cc:42: registering LB policy factory for "round_robin"
+D0311 12:04:18.105191 0 ..\..\..\src\core\ext\filters\client_channel\resolver\dns\native\dns_resolver.cc:304: Using native dns resolver
+D0311 12:04:18.105362 0 ..\..\..\src\core\ext\xds\certificate_provider_registry.cc:33: registering certificate provider factory for "file_watcher"
+D0311 12:04:18.105474 0 ..\..\..\src\core\ext\filters\client_channel\lb_policy_registry.cc:42: registering LB policy factory for "cds_experimental"
+D0311 12:04:18.105633 0 ..\..\..\src\core\ext\filters\client_channel\lb_policy_registry.cc:42: registering LB policy factory for "xds_cluster_impl_experimental"
+D0311 12:04:18.105728 0 ..\..\..\src\core\ext\filters\client_channel\lb_policy_registry.cc:42: registering LB policy factory for "xds_cluster_resolver_experimental"
+D0311 12:04:18.105841 0 ..\..\..\src\core\ext\filters\client_channel\lb_policy_registry.cc:42: registering LB policy factory for "xds_cluster_manager_experimental"
+D0311 12:04:18.278694 0 ..\..\..\src\core\ext\filters\client_channel\resolver\dns\native\dns_resolver.cc:259: Start resolving.
+I0311 12:04:20.348733 0 ..\..\..\src\core\ext\filters\client_channel\subchannel.cc:1060: Connect failed: {"created":"@1615482260.347000000","description":"OS Error","file":"..\..\..\src\core\lib\iomgr\tcp_client_windows.cc","file_line":106,"os_error":"No connection could be made because the target machine actively refused it.\r\n","syscall":"ConnectEx","wsa_error":10061}
+I0311 12:04:22.396433 0 ..\..\..\src\core\ext\filters\client_channel\subchannel.cc:1060: Connect failed: {"created":"@1615482262.396000000","description":"OS Error","file":"..\..\..\src\core\lib\iomgr\tcp_client_windows.cc","file_line":106,"os_error":"No connection could be made because the target machine actively refused it.\r\n","syscall":"ConnectEx","wsa_error":10061}
+D0311 12:04:22.399529 0 ..\..\..\src\core\ext\filters\client_channel\resolver\dns\native\dns_resolver.cc:237: In cooldown from last resolution (from 4120 ms ago). Will resolve again in 25880 ms
+I0311 12:04:22.401768 0 ..\..\..\src\core\ext\filters\client_channel\subchannel.cc:997: Subchannel 000001B96BEC9650: Retry immediately
+I0311 12:04:22.402322 0 ..\..\..\src\core\ext\filters\client_channel\subchannel.cc:1024: Failed to connect to channel, retrying
+I0311 12:04:24.445312 0 ..\..\..\src\core\ext\filters\client_channel\subchannel.cc:1060: Connect failed: {"created":"@1615482264.429000000","description":"OS Error","file":"..\..\..\src\core\lib\iomgr\tcp_client_windows.cc","file_line":106,"os_error":"No connection could be made because the target machine actively refused it.\r\n","syscall":"ConnectEx","wsa_error":10061}
+I0311 12:04:24.455341 0 ..\..\..\src\core\ext\filters\client_channel\subchannel.cc:997: Subchannel 000001B9504FD580: Retry immediately
+I0311 12:04:24.462023 0 ..\..\..\src\core\ext\filters\client_channel\subchannel.cc:1024: Failed to connect to channel, retrying
+
+

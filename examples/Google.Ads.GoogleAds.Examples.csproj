@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.0;net472;net5.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.0;net472</TargetFrameworks>
     <RootNamespace>Google.Ads.GoogleAds.Examples</RootNamespace>
     <AssemblyName>Google.Ads.GoogleAds.Examples</AssemblyName>
     <OutputType>Exe</OutputType>
@@ -22,12 +22,13 @@
     <None Remove="Migration\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Condition="!Exists('..\src\Google.Ads.GoogleAds.csproj')"
-        Include="Google.Ads.GoogleAds" Version="7.1.0" />
+    <PackageReference Condition="!Exists('..\src\Google.Ads.GoogleAds.csproj')" Include="Google.Ads.GoogleAds" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Data.Analysis" Version="0.4.0" />
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="XPlot.Plotly" Version="4.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web" />

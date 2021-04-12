@@ -48,7 +48,7 @@ namespace Google.Ads.GoogleAds.Examples.V6
         /// Runs the code example.
         /// </summary>
         /// <param name="client">The Google Ads client.</param>
-        // [START get_geo_target_constants_by_names]
+        // [START GetGeoTargetConstantsByNames]
         public void Run(GoogleAdsClient client)
         {
             // Get the GeoTargetConstantServiceClient.
@@ -60,10 +60,12 @@ namespace Google.Ads.GoogleAds.Examples.V6
             string locale = "en";
 
             // A list of country codes can be referenced here:
-            // https://developers.google.com/google-ads/api/reference/data/geotargets
-            string countryCode = "FR";
+            // https://developers.google.com/adwords/api/docs/appendix/geotargeting
+            //string countryCode = "FR";
+            string countryCode = "CA";
 
-            String[] locations = { "Paris", "Quebec", "Spain", "Deutschland" };
+            //String[] locations = { "Paris", "Quebec", "Spain", "Deutschland" };
+            String[] locations = { "M2N" }; // "Toronto", "Richmond Hill", "North York", "Mississauga" };
 
             SuggestGeoTargetConstantsRequest request = new SuggestGeoTargetConstantsRequest()
             {
@@ -101,6 +103,6 @@ namespace Google.Ads.GoogleAds.Examples.V6
                 throw;
             }
         }
-        // [END get_geo_target_constants_by_names]
+        // [END GetGeoTargetConstantsByNames]
     }
 }
